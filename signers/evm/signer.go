@@ -259,6 +259,10 @@ func getChainID(network string) (*big.Int, error) {
 		return big.NewInt(8453), nil
 	case "base-sepolia":
 		return big.NewInt(84532), nil
+	case "bepolia":
+		return big.NewInt(80069), nil
+	case "berachain":
+		return big.NewInt(80094), nil
 	case "ethereum":
 		return big.NewInt(1), nil
 	case "sepolia":
